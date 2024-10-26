@@ -2,6 +2,7 @@
 @import "./global/global.css";
 /* HOME */
 @import "./home/header.css";
+@import "./home/banner.css";
 /* PRODUTOS */
 @import "./produtos/produtos.css";
 /* SHOP */

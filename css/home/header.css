@@ -5,6 +5,10 @@
   padding: 1.25rem 3rem;
   background: var(--cor-bg-1);
   box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .navbar {
   display: flex;
