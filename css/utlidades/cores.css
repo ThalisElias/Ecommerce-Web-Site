@@ -1,9 +1,13 @@
 :root {
   --cor-bg-1: #e3e6f3;
   --cor-bg-2: #e8f6ea;
+  --cor-bg-3: #041e42;
+  --cor-bg-4: #088178;
   --cor-texto-1: #1a1a1a;
   --cor-texto-2: #ffffff;
+  --cor-texto-3: #818ea0;
   --cor-texto-span: #ef3636;
+  --cor-texto-span-2: #ffbd27;
   --cor-texto-1-hover: #0aaca1;
   --cor-span-1: #606063;
   --cor-borda-1: #cce7d0;
