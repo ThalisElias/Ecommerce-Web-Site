@@ -43,3 +43,17 @@
 .feature .feature-box:nth-child(6) h6 {
   background-color: #fff2e5;
 }
+@media (max-width: 800px) {
+  .feature {
+    justify-content: space-around;
+  }
+  .feature .feature-box {
+    margin: 10px 5px;
+  }
+}
+@media (max-width: 430px) {
+  .feature .feature-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+}

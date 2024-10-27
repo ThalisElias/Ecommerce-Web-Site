@@ -40,3 +40,13 @@
   white-space: nowrap;
   border-radius: 0 4px 4px 0;
 }
+@media (max-width: 800px) {
+  .newsletter .form {
+    width: 40%;
+  }
+}
+@media (max-width: 430px) {
+  .newsletter {
+    width: 40px 20px;
+  }
+}

@@ -33,3 +33,17 @@
   font-weight: 800;
   font-size: 15px;
 }
+@media (max-width: 800px) {
+  .banner3 {
+    padding: 0 20px;
+  }
+  .banner3 .banner-box {
+    flex-grow: 1;
+    margin: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .banner3 {
+    padding: 0 10px;
+  }
+}

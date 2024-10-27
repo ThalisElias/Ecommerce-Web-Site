@@ -63,3 +63,26 @@
   bottom: 1.25rem;
   right: 0.625rem;
 }
+@media (max-width: 900px) {
+  @media (max-width: 900px) {
+    .produto1 .produtos-container {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+
+    .produto1 .produtos {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .produto1 .produtos-container {
+    justify-content: center;
+  }
+  .produto1 .produtos {
+    margin: 10px 10px;
+  }
+}
