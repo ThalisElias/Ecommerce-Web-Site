@@ -1,0 +1,28 @@
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../../img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+.banner2 h4,
+.banner2 h2 {
+  color: var(--cor-texto-2);
+  font-size: 1rem;
+}
+.banner2 h2 {
+  font-size: 1.875rem;
+  padding: 0.625rem 0;
+}
+.banner2 h2 span {
+  color: var(--cor-texto-span);
+}
+.banner2 button:hover {
+  background-color: var(--cor-texto-1-hover);
+  color: var(--cor-texto-2);
+}
